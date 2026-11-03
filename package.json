@@ -1,0 +1,14 @@
+{
+  "name": "helmet-adventure-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "vite": "^6.4.1"
+  },
+  "devDependencies": {}
+}

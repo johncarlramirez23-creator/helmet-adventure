@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helmet Adventure - Prototype</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #17202a; color: #fff; font-family: Arial, sans-serif; }
+    #game-wrap { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
+    #game { width: min(100%, 1000px); }
+    .help { max-width: 1000px; margin: 0 auto 12px; color: #e8eef5; line-height: 1.5; font-size: 14px; }
+    canvas { display: block; max-width: 100%; height: auto !important; border: 3px solid #43566b; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div id="game-wrap">
+    <div>
+      <div class="help">
+        <b>Controls:</b> A / D or ← / → to move · W / ↑ / Space to jump · J to attack
+        <br><b>Goal:</b> Defeat the slime, earn EXP, and level up. This is an original fan-made prototype, not the official Helmet Heroes game.
+      </div>
+      <div id="game"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
